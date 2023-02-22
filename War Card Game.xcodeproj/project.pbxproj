@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B865317D29A62AB100F40978 /* WarGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B865317C29A62AB100F40978 /* WarGameModel.swift */; };
 		B8E765F629A508B700D3D4B9 /* War_Card_GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E765F529A508B700D3D4B9 /* War_Card_GameApp.swift */; };
-		B8E765F829A508B700D3D4B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E765F729A508B700D3D4B9 /* ContentView.swift */; };
+		B8E765F829A508B700D3D4B9 /* WarGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E765F729A508B700D3D4B9 /* WarGameView.swift */; };
 		B8E765FA29A508B800D3D4B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8E765F929A508B800D3D4B9 /* Assets.xcassets */; };
 		B8E765FD29A508B800D3D4B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8E765FC29A508B800D3D4B9 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B865317C29A62AB100F40978 /* WarGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarGameModel.swift; sourceTree = "<group>"; };
 		B8E765F229A508B700D3D4B9 /* War Card Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "War Card Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8E765F529A508B700D3D4B9 /* War_Card_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = War_Card_GameApp.swift; sourceTree = "<group>"; };
-		B8E765F729A508B700D3D4B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B8E765F729A508B700D3D4B9 /* WarGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarGameView.swift; sourceTree = "<group>"; };
 		B8E765F929A508B800D3D4B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8E765FC29A508B800D3D4B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,6 +34,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B865317B29A62A7400F40978 /* WarGameView */ = {
+			isa = PBXGroup;
+			children = (
+				B8E765F729A508B700D3D4B9 /* WarGameView.swift */,
+				B865317C29A62AB100F40978 /* WarGameModel.swift */,
+			);
+			path = WarGameView;
+			sourceTree = "<group>";
+		};
 		B8E765E929A508B700D3D4B9 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +62,9 @@
 		B8E765F429A508B700D3D4B9 /* War Card Game */ = {
 			isa = PBXGroup;
 			children = (
-				B8E765F529A508B700D3D4B9 /* War_Card_GameApp.swift */,
-				B8E765F729A508B700D3D4B9 /* ContentView.swift */,
+				B865317B29A62A7400F40978 /* WarGameView */,
 				B8E765F929A508B800D3D4B9 /* Assets.xcassets */,
+				B8E765F529A508B700D3D4B9 /* War_Card_GameApp.swift */,
 				B8E765FB29A508B800D3D4B9 /* Preview Content */,
 			);
 			path = "War Card Game";
@@ -137,7 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8E765F829A508B700D3D4B9 /* ContentView.swift in Sources */,
+				B865317D29A62AB100F40978 /* WarGameModel.swift in Sources */,
+				B8E765F829A508B700D3D4B9 /* WarGameView.swift in Sources */,
 				B8E765F629A508B700D3D4B9 /* War_Card_GameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
